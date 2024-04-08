@@ -1,0 +1,16 @@
+.nav_item::after {
+  margin-right: auto;
+}
+
+.nav_item::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  transition: 0.5s;
+}
+
+.nav_item:hover::after {
+  width: 100%;
+}

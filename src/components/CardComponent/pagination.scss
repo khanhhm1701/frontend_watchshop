@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 36px;
+    font-size: 20px;
+  }
+  
+  .pagination li {
+    padding: 0 12px;
+    cursor: pointer;
+  }
+  
+  .pagination i:hover {
+      color: #ca8a04;
+  }
+  
+  .pagination li.active {
+    font-weight: bold;
+    color: #ca8a04;
+  }
+  
