@@ -53,5 +53,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
-  }
+  },
+  "proxy": "https://backend-watchshop-1.onrender.com"
 }
